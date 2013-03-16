@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		996D7C0F16F41E8A00C467F6 /* AddListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D7C0E16F41E8A00C467F6 /* AddListViewController.m */; };
+		996D7C1116F43BE500C467F6 /* ContactCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996D7C1016F43BE500C467F6 /* ContactCellView.xib */; };
+		996D7C1716F43F5F00C467F6 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 996D7C1616F43F5F00C467F6 /* ContactCell.m */; };
 		997D83B616F2BF4A00852961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997D83B516F2BF4A00852961 /* UIKit.framework */; };
 		997D83B816F2BF4A00852961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997D83B716F2BF4A00852961 /* Foundation.framework */; };
 		997D83BA16F2BF4A00852961 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997D83B916F2BF4A00852961 /* CoreGraphics.framework */; };
@@ -41,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		996D7C0D16F41E8A00C467F6 /* AddListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddListViewController.h; sourceTree = "<group>"; };
+		996D7C0E16F41E8A00C467F6 /* AddListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddListViewController.m; sourceTree = "<group>"; };
+		996D7C1016F43BE500C467F6 /* ContactCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactCellView.xib; sourceTree = "<group>"; };
+		996D7C1516F43F5F00C467F6 /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactCell.h; path = ../ContactCell.h; sourceTree = "<group>"; };
+		996D7C1616F43F5F00C467F6 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactCell.m; path = ../ContactCell.m; sourceTree = "<group>"; };
 		997D83B216F2BF4A00852961 /* List.it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = List.it.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997D83B516F2BF4A00852961 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		997D83B716F2BF4A00852961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -138,6 +146,11 @@
 				997D83D916F2BF4A00852961 /* MasterViewController.m */,
 				997D83DB16F2BF4A00852961 /* DetailViewController.h */,
 				997D83DC16F2BF4A00852961 /* DetailViewController.m */,
+				996D7C0D16F41E8A00C467F6 /* AddListViewController.h */,
+				996D7C0E16F41E8A00C467F6 /* AddListViewController.m */,
+				996D7C1516F43F5F00C467F6 /* ContactCell.h */,
+				996D7C1616F43F5F00C467F6 /* ContactCell.m */,
+				996D7C1016F43BE500C467F6 /* ContactCellView.xib */,
 				997D83D516F2BF4A00852961 /* List_it.xcdatamodeld */,
 				997D83BE16F2BF4A00852961 /* Supporting Files */,
 			);
@@ -254,6 +267,7 @@
 				997D83CE16F2BF4A00852961 /* Default-568h@2x.png in Resources */,
 				997D83D116F2BF4A00852961 /* MainStoryboard_iPhone.storyboard in Resources */,
 				997D83D416F2BF4A00852961 /* MainStoryboard_iPad.storyboard in Resources */,
+				996D7C1116F43BE500C467F6 /* ContactCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +307,8 @@
 				997D83D716F2BF4A00852961 /* List_it.xcdatamodeld in Sources */,
 				997D83DA16F2BF4A00852961 /* MasterViewController.m in Sources */,
 				997D83DD16F2BF4A00852961 /* DetailViewController.m in Sources */,
+				996D7C0F16F41E8A00C467F6 /* AddListViewController.m in Sources */,
+				996D7C1716F43F5F00C467F6 /* ContactCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +499,7 @@
 				997D83F816F2BF4B00852961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		997D83F916F2BF4B00852961 /* Build configuration list for PBXNativeTarget "List.itTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +508,7 @@
 				997D83FB16F2BF4B00852961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
