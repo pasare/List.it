@@ -152,7 +152,7 @@
         }
     }
     else
-        return 44.0;
+        return 31.0;
 }
 
 @end
